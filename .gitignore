@@ -1,0 +1,14 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment / testing data
+raw.html
+test_app_logic.py
+test_parser_offline.py
+
+# OS-specific files
+.DS_Store
+Thumbs.db
