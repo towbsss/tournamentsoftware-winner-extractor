@@ -102,7 +102,7 @@ st.markdown("Extract results and placements of your club's athletes from any Tou
 st.header("1. Tournament Details")
 url_input = st.text_input(
     "Paste the full TournamentSoftware URL or the 36-character tournament ID (GUID):",
-    value="https://badmintoncanada.tournamentsoftware.com/tournament/7A817C4F-7EDD-493C-918B-8DC6C2EDFA67",
+    value="...",
     placeholder="e.g. 7A817C4F-7EDD-493C-918B-8DC6C2EDFA67"
 )
 
@@ -116,8 +116,8 @@ names_list = []
 
 with tab_paste:
     pasted_text = st.text_area(
-        "Enter player names (one per line):",
-        value="John DOE\nJane SMITH\nAlex JONES",
+        "Enter player names as used on TournamentSoftware (one per line):",
+        value="John DOE\nJane SMITH\nFirst Middle LASTNAME",
         height=150,
         help="Type or paste a list of players. Matches are case-insensitive."
     )
